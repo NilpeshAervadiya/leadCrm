@@ -1,0 +1,300 @@
+/* Main Hero Section */
+.mainHero {
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.heroContent {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroProfessional {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.85px solid #9ACCFF;
+    border-radius: 20px;
+    padding: 8.51px;
+    gap: 6.81px;
+    max-width: 308.83px;
+}
+
+.heroProfessionalText {
+    font-weight: 400;
+    font-size: 13.62px;
+    line-height: 23.83px;
+    font-style: normal;
+    color: #63657E;
+}
+
+.heroTitle {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 69px;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    color: #222222;
+    margin-top: 12px;
+}
+
+.heroTitleLine1 {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 69px;
+    color: #222222;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.heroTitleLine2 {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 69px;
+    color: #222222;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.heroTitleHighlight {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 69px;
+    color: #2D96BC;
+    position: relative;
+    display: inline-block;
+}
+
+.heroTitleHighlightLine {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    position: absolute;
+    top: 43px;
+    left: 20px
+}
+
+.heroDescription {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    color: #363636;
+    max-width: 862px;
+    margin-top: 24px;
+    letter-spacing: 0%;
+}
+
+.heroWorkButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 24px;
+    padding: 19px 22px 19px 22px;
+    gap: 10px;
+    background: linear-gradient(90deg, #5ED3FF 0%, #6EC6FE 33%, #EB65F4 66%, #FD58F2 100%);
+    border-radius: 20px;
+    max-width: 423px;
+    width: 100%;
+}
+
+.worksWithText {
+    font-weight: 500;
+    font-size: 22px;
+    color: #2E2E2E;
+    margin: 0;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.partnerLogos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoCircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.logoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 1px;
+}
+
+/* Rating Section */
+.heroRating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.ratingItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ratingIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ratingIconImage {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.ratingStars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.ratingText {
+    font-weight: 500;
+    font-size: 14.31px;
+    line-height: 100%;
+    text-align: center;
+    color: #090F4E;
+    margin-left: 4px;
+}
+
+.ratingDivider {
+    width: 1px;
+    height: 40px;
+}
+
+/* App Available Section */
+.heroAppAvailable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    max-width: 453px;
+}
+
+.chromeStoreButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #373737;
+    border-radius: 13px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    max-width: 225px;
+    max-height: 58px;
+}
+
+.chromeStoreButton:hover {
+    background-color: #2a2a2a;
+}
+
+.chromeButtonText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    text-align: left;
+
+}
+
+.chromeButtonTop {
+    font-size: 12px;
+    font-weight: 400;
+    color: #E4E4E4;
+    line-height: 100%;
+}
+
+.chromeButtonBottom {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.chromeButtonLogoContainer {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.chromeButtonLogo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.trialButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B3FC6A;
+    color: #242424;
+    border-radius: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    width: 214px;
+    height: 60px;
+}
+
+.trialButton:hover {
+    background-color: #22c55e;
+}

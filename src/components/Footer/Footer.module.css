@@ -1,0 +1,278 @@
+.mainFooter {
+    width: 100%;
+    padding: 26px 0px 12px 0px;
+    background-color: #01B2D838;
+    margin-top: 162px;
+}
+
+.footerContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.footerBox {
+    flex: 1;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.firstBox {
+    flex: 1.2;
+    margin-right: 40px;
+}
+
+.lastBox {
+    flex: 1.1;
+    margin-left: 40px;
+}
+
+
+.logo {
+    width: 240px;
+    height: 84px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.tagline {
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 400;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.socialIcon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #01B2D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.socialIcon:hover {
+    background-color: #D0E8F0;
+}
+
+.boxHeading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #090F4E;
+    margin: 0 0 8px 0;
+    line-height: 40px;
+}
+
+.linkList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.linkList li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.linkList a {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.linkList a:hover {
+    color: #090F4E;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #D8FFDD;
+    color: #002A06;
+    padding: 2px 8px;
+    border-radius: 53px;
+    border: 1px solid #FFFFFF;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 83px;
+    max-height: 30px;
+    letter-spacing: 0.3px;
+}
+
+.contactList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactIcon {
+    color: #01B2D8;
+    font-size: 25px;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.contactList a {
+    font-size: 14px;
+    color: #4D4D4D;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contactList a:hover {
+    color: #090F4E;
+}
+
+.chromeBadge {
+    background-color: #242424;
+    border-radius: 15px;
+    border: 2px solid #242424;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 8px;
+    width: 170px;
+}
+
+.chromeTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.availableText {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.chromeLogoContainer {
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.chromeLogo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.chromeText {
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.footerBottom {
+    margin-top: 40px;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #54595F;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #8D8D8D94;
+    margin: 6px 0;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #7A7A7A;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .footerContent {
+        gap: 30px;
+    }
+
+    .firstBox {
+        margin-right: 20px;
+    }
+
+    .lastBox {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainFooter {
+        padding: 40px 0 20px 0;
+    }
+
+    .footerContent {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footerBox {
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .firstBox,
+    .lastBox {
+        margin: 0;
+    }
+
+    .chromeBadge {
+        align-self: flex-start;
+    }
+}

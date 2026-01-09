@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DailyChallenges from "./components/DailyChallenges/DailyChallenges";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import HowItWork from "./components/HowItWork/HowItWork";
+import Rating from "./components/Rating/Rating";
+import SalesSolution from "./components/SalesSolution/SalesSolution";
+import Slider from "./components/Slider/Slider";
+import Support from "./components/Support/Support";
+import UseCrm from "./components/UseCrm/UseCrm";
+
+// const backgroundLinesImageStyle = {
+//   backgroundImage: "url(/images/lines.png)",
+// };
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <div style={backgroundLinesImageStyle} className="herolinebackground"> */}
+      <Header />
+      <Hero />
+      <Slider />
+      <DailyChallenges />
+      <HowItWork />
+      <Rating />
+      <SalesSolution />
+      <Support />
+      <UseCrm />
+      <Footer />
+      {/* </div> */}
+    </>
   );
 }
 

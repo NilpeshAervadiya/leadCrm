@@ -1,0 +1,376 @@
+.dailyChallenges {
+    width: 100%;
+    padding: 90px 0px 180px 0px;
+    background-color: #FFFFFF;
+}
+
+.dailyChallenges .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionTitle {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #090F4E;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 914px;
+}
+
+.comparisonContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.withoutSection,
+.withSection {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 543px;
+    width: 100%;
+    flex: 1;
+    background-color: #FFF7F8;
+    padding: 26px;
+    border-radius: 18px;
+}
+
+.withCRM {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.withCrmImg {
+    width: 28px;
+    height: 28px;
+    display: block;
+    object-fit: contain;
+}
+
+
+.withHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 32px;
+    object-fit: contain;
+}
+
+.timeSaved {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2D96BC;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.screenshotContainer {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.screenshot {
+    width: 491px;
+    height: 191px;
+    display: block;
+    object-fit: contain;
+}
+
+.challengesList,
+.benefitsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.challengeItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 0;
+    max-width: 434px;
+    width: 100%;
+    max-height: 82px;
+    height: 100%;
+}
+
+.challengeImage {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.challengeContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.dailyChallengesHeading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #D24B68;
+}
+
+.challengeHeader {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.xIcon {
+    color: #D24B68;
+    font-size: 18px;
+    font-weight: 900;
+    width: 24px;
+    height: 24px;
+    line-height: 1;
+    margin-top: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.challengeStat {
+    font-size: 13px;
+    font-weight: 500;
+    color: #FF4C51;
+    line-height: 1.4;
+    background-color: #FFDCD4;
+    padding: 6px 6.23px 6px 6.23px;
+    border-radius: 24.7px;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 144px;
+    width: 100%;
+
+}
+
+.challengeTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    margin: 0;
+    line-height: 100%;
+    min-width: 0;
+}
+
+.challengeDescription {
+    font-size: 16px;
+    color: #4C4C4C;
+    line-height: 24px;
+    margin: 0;
+    padding-left: 0;
+    font-weight: 400;
+}
+
+.benefitItem {
+    display: flex;
+    gap: 16px;
+    padding: 16px 20px;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-left: 4px solid #2D96BC;
+    border: none;
+}
+
+.benefitIcon {
+    font-size: 28px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background-color: #f0f9ff;
+    border-radius: 8px;
+}
+
+.benefitContent {
+    flex: 1;
+}
+
+.benefitTitle {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2D96BC;
+    margin: 0 0 6px 0;
+    line-height: 1.4;
+}
+
+.benefitDescription {
+    font-family: 'Exo 2', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.vsDivider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 0;
+    margin: 0 40px;
+}
+
+.vsLineTop {
+    width: 0.8px;
+    height: 293px;
+    background-color: #BCBCBC;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+.vsLineBottom {
+    width: 0.8px;
+    height: 293px;
+    background-color: #BCBCBC;
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+
+.vsText {
+    font-size: 18px;
+    font-weight: 500;
+    color: #090F4E;
+    white-space: nowrap;
+    line-height: 28px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .comparisonContainer {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .vsDivider {
+        flex-direction: row;
+        margin: 40px 0;
+        gap: 0;
+    }
+
+    .vsLineTop,
+    .vsLineBottom {
+        width: 60px;
+        height: 1px;
+        margin: 0 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dailyChallenges {
+        padding: 60px 0;
+    }
+
+    .sectionTitle {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .challengeItem,
+    .benefitItem {
+        padding: 16px;
+    }
+
+    .challengeTitle,
+    .benefitTitle {
+        font-size: 18px;
+    }
+}
+
+.ctaSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 78px;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ctaButton {
+    background-color: #B3FC6A;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 296px;
+    line-height: 28px;
+    height: 60px;
+    transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #7CB342;
+}
+
+.ctaImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 170px;
+    bottom: -30px;
+}
+
+.ctaImage {
+    width: 265px;
+    height: 149px;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .ctaSection {
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 40px;
+    }
+
+    .ctaButton {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ctaImage {
+        max-width: 250px;
+    }
+}
