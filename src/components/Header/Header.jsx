@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   const navLinks = [
-    { name: "Product", href: "#", hasDropdown: true },
-    { name: "Pricing", href: "#", hasDropdown: false },
-    { name: "Resources", href: "#", hasDropdown: true },
-    { name: "Company", href: "#", hasDropdown: true },
+    { name: "Product", href: "/", hasDropdown: true },
+    { name: "Pricing", href: "/", hasDropdown: false },
+    { name: "Resources", href: "/", hasDropdown: true },
+    { name: "Company", href: "/", hasDropdown: true },
   ];
 
   return (
@@ -48,10 +48,10 @@ const Header = () => {
 
               {/* CTA Buttons */}
               <div className={styles.ctaButtons}>
-                <a href="#" className={styles.primaryButton}>
+                <a href="/" className={styles.primaryButton}>
                   Get Your Free Account
                 </a>
-                <a href="#" className={styles.loginButton}>
+                <a href="/" className={styles.loginButton}>
                   <MdLogin size={24} />
                   Login
                 </a>
@@ -107,10 +107,10 @@ const Header = () => {
                 </li>
               ))}
               <li className={styles.mobileCta}>
-                <a href="#" className={styles.mobilePrimaryButton}>
+                <a href="/" className={styles.mobilePrimaryButton}>
                   Get Your Free Account
                 </a>
-                <a href="#" className={styles.mobileLoginButton}>
+                <a href="/" className={styles.mobileLoginButton}>
                   <svg
                     width="16"
                     height="16"

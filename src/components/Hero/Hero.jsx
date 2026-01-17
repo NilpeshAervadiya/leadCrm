@@ -138,7 +138,7 @@ const Hero = () => {
             </div>
 
             <div className={styles.heroAppAvailable}>
-              <a href="#" className={styles.chromeStoreButton}>
+              <a href="/" className={styles.chromeStoreButton}>
                 <div className={styles.chromeButtonText}>
                   <span className={styles.chromeButtonTop}>Available in</span>
                   <span className={styles.chromeButtonBottom}>
@@ -153,7 +153,7 @@ const Hero = () => {
                   />
                 </div>
               </a>
-              <a href="#" className={styles.trialButton}>
+              <a href="/" className={styles.trialButton}>
                 Get a Free Trial Now!
               </a>
             </div>

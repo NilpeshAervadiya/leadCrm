@@ -21,16 +21,16 @@ const Footer = () => {
                 LeadCRM is LinkedIn integration tool for your CRM.
               </p>
               <div className={styles.socialIcons}>
-                <a href="#" className={styles.socialIcon}>
+                <a href="/" className={styles.socialIcon}>
                   <FaFacebook />
                 </a>
-                <a href="#" className={styles.socialIcon}>
+                <a href="/" className={styles.socialIcon}>
                   <FaTwitter />
                 </a>
-                <a href="#" className={styles.socialIcon}>
+                <a href="/" className={styles.socialIcon}>
                   <FaLinkedin />
                 </a>
-                <a href="#" className={styles.socialIcon}>
+                <a href="/" className={styles.socialIcon}>
                   <FaInstagram />
                 </a>
               </div>
@@ -41,20 +41,20 @@ const Footer = () => {
               <h4 className={styles.boxHeading}>Integrations</h4>
               <ul className={styles.linkList}>
                 <li>
-                  <a href="#">HubSpot</a>
+                  <a href="/">HubSpot</a>
                 </li>
                 <li>
-                  <a href="#">Salesforce</a>
+                  <a href="/">Salesforce</a>
                 </li>
                 <li>
-                  <a href="#">Pipedrive</a>
+                  <a href="/">Pipedrive</a>
                 </li>
                 <li>
-                  <a href="#">Close.io</a>
+                  <a href="/">Close.io</a>
                   <span className={styles.badge}>Coming Soon</span>
                 </li>
                 <li>
-                  <a href="#">Insightly</a>
+                  <a href="/">Insightly</a>
                   <span className={styles.badge}>Coming Soon</span>
                 </li>
               </ul>
@@ -65,10 +65,10 @@ const Footer = () => {
               <h4 className={styles.boxHeading}>Alternative</h4>
               <ul className={styles.linkList}>
                 <li>
-                  <a href="#">Surfe VS LeadCRM</a>
+                  <a href="/">Surfe VS LeadCRM</a>
                 </li>
                 <li>
-                  <a href="#">Linkmatch Alternative</a>
+                  <a href="/">Linkmatch Alternative</a>
                 </li>
               </ul>
             </div>
@@ -78,10 +78,10 @@ const Footer = () => {
               <h4 className={styles.boxHeading}>Legal</h4>
               <ul className={styles.linkList}>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                 </li>
               </ul>
             </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                     alt="Email"
                     className={styles.contactIcon}
                   />
-                  <a href="#">Help Center</a>
+                  <a href="/">Help Center</a>
                 </li>
               </ul>
 
