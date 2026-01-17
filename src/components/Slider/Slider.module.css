@@ -98,10 +98,96 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1399px) {
+    .sliderContainer {
+        padding: 55px 0;
+    }
+
+    .crmLabel {
+        font-size: 15px;
+        margin-right: 18px;
+    }
+
+    .featureItem {
+        gap: 11px;
+    }
+
+    .featureIcon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sliderContainer {
+        padding: 50px 0;
+    }
+
+    .sliderTrack {
+        gap: 35px;
+        animation-duration: 28s;
+    }
+
+    .crmLabel {
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    .featureIcon {
+        width: 52px;
+        height: 52px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sliderContainer {
+        padding: 45px 0;
+    }
+
+    .sliderTrack {
+        gap: 30px;
+        animation-duration: 25s;
+    }
+
+    .crmLabel {
+        font-size: 14px;
+        margin-right: 14px;
+    }
+
+    .featureItem {
+        gap: 10px;
+    }
+
+    .featureIcon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
 @media (max-width: 768px) {
     .sliderContainer {
         padding: 30px 0;
-        margin: 30px 0;
     }
 
     .sliderTrack {
@@ -109,13 +195,112 @@
         animation-duration: 20s;
     }
 
-    .featureIcon {
-        font-size: 20px;
-        width: 28px;
-        height: 28px;
+    .crmLabel {
+        font-size: 13px;
+        margin-right: 12px;
     }
 
-    .featureTitle {
-        font-size: 16px;
+    .featureItem {
+        gap: 9px;
+    }
+
+    .featureIcon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sliderContainer {
+        padding: 25px 0;
+    }
+
+    .sliderTrack {
+        gap: 20px;
+        animation-duration: 18s;
+    }
+
+    .crmLabel {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .featureIcon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sliderContainer {
+        padding: 20px 0;
+    }
+
+    .sliderTrack {
+        gap: 16px;
+        animation-duration: 15s;
+    }
+
+    .crmLabel {
+        font-size: 11px;
+        margin-right: 8px;
+    }
+
+    .featureItem {
+        gap: 8px;
+    }
+
+    .featureIcon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    .sliderContainer {
+        padding: 18px 0;
+    }
+
+    .sliderTrack {
+        gap: 14px;
+        animation-duration: 12s;
+    }
+
+    .crmLabel {
+        font-size: 10px;
+        margin-right: 6px;
+    }
+
+    .featureIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .featureLabel,
+    .featureTitle,
+    .featureSubtitle {
+        font-size: 11px;
+        line-height: 16px;
     }
 }

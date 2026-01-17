@@ -180,46 +180,310 @@
 
 
 /* Responsive Design */
+@media (max-width: 1399px) {
+    .howItWork {
+        padding: 48px 0px;
+    }
+
+    .contentWrapper {
+        gap: 45px;
+    }
+
+    .mainHeading {
+        font-size: 34px;
+    }
+
+    .mainDescription {
+        font-size: 15px;
+    }
+
+    .stepsContainer {
+        gap: 18px;
+    }
+
+    .stepNumber {
+        font-size: 105px;
+    }
+
+    .stepTitle {
+        font-size: 23px;
+    }
+
+    .stepDescription {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .howItWorkConnectImage {
+        width: 820px;
+        height: 28px;
+    }
+
+    .howItWorkConnectImageContainer {
+        top: 75px;
+    }
+}
+
 @media (max-width: 1200px) {
+    .howItWork {
+        padding: 45px 0px;
+    }
+
+    .contentWrapper {
+        gap: 42px;
+    }
+
+    .mainHeading {
+        font-size: 32px;
+    }
+
     .stepsContainer {
         flex-wrap: wrap;
         gap: 40px;
+        justify-content: center;
     }
 
     .stepWrapper {
         flex: 1 1 calc(50% - 20px);
         min-width: 280px;
+        max-width: 320px;
     }
 
-    .connectorLine {
+    .howItWorkConnectImageContainer {
         display: none;
+    }
+
+    .stepNumber {
+        font-size: 95px;
+    }
+
+    .stepTitle {
+        font-size: 22px;
+    }
+
+    .stepDescription {
+        max-width: 260px;
+    }
+
+    .tryleadcrmSection {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .howItWork {
+        padding: 42px 0px;
+    }
+
+    .contentWrapper {
+        gap: 40px;
+    }
+
+    .mainHeading {
+        font-size: 30px;
+    }
+
+    .mainDescription {
+        font-size: 15px;
+    }
+
+    .stepsContainer {
+        gap: 35px;
+    }
+
+    .stepWrapper {
+        flex: 1 1 calc(50% - 17px);
+        min-width: 260px;
+    }
+
+    .stepNumber {
+        font-size: 85px;
+        padding-top: 12px;
+    }
+
+    .stepTitle {
+        font-size: 21px;
+    }
+
+    .stepDescription {
+        font-size: 15px;
+        max-width: 240px;
+    }
+
+    .tryLeadCRMNowButton {
+        width: 210px;
+        height: 56px;
+        font-size: 17px;
     }
 }
 
 @media (max-width: 768px) {
     .howItWork {
-        padding: 60px 0;
+        padding: 40px 0px;
+    }
+
+    .contentWrapper {
+        gap: 35px;
     }
 
     .mainHeading {
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .mainDescription {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .stepsContainer {
         flex-direction: column;
         gap: 30px;
+        align-items: center;
     }
 
     .stepWrapper {
         flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
     }
 
     .stepCard {
         padding: 24px 20px;
+        gap: 28px;
+    }
+
+    .stepNumber {
+        font-size: 75px;
+        padding-top: 10px;
+    }
+
+    .stepTitle {
+        font-size: 20px;
+    }
+
+    .stepDescription {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+
+    .tryleadcrmSection {
+        margin-top: 55px;
+    }
+
+    .tryLeadCRMNowButton {
+        width: 200px;
+        height: 54px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .howItWork {
+        padding: 35px 0px;
+    }
+
+    .contentWrapper {
+        gap: 30px;
+    }
+
+    .mainHeading {
+        font-size: 26px;
+    }
+
+    .mainDescription {
+        font-size: 13px;
+    }
+
+    .stepsContainer {
+        gap: 25px;
+    }
+
+    .stepCard {
+        padding: 20px 18px;
+        gap: 24px;
+    }
+
+    .stepNumber {
+        font-size: 65px;
+    }
+
+    .stepTitle {
+        font-size: 19px;
+    }
+
+    .stepDescription {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .tryleadcrmSection {
+        margin-top: 45px;
+    }
+
+    .tryLeadCRMNowButton {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .howItWork {
+        padding: 30px 0px;
+    }
+
+    .contentWrapper {
+        gap: 28px;
+    }
+
+    .mainHeading {
+        font-size: 24px;
+    }
+
+    .mainDescription {
+        font-size: 12px;
+    }
+
+    .stepsContainer {
+        gap: 22px;
+    }
+
+    .stepCard {
+        padding: 18px 16px;
+        gap: 20px;
+    }
+
+    .stepNumber {
+        font-size: 55px;
+        padding-top: 8px;
+    }
+
+    .stepTitle {
+        font-size: 18px;
+    }
+
+    .stepDescription {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .tryleadcrmSection {
+        margin-top: 40px;
+    }
+
+    .tryLeadCRMNowButton {
+        width: 100%;
+        max-width: 170px;
+        height: 48px;
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainHeading {
+        font-size: 22px;
     }
 
     .stepNumber {
@@ -227,6 +491,6 @@
     }
 
     .stepTitle {
-        font-size: 20px;
+        font-size: 17px;
     }
 }

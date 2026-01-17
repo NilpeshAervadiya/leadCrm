@@ -249,36 +249,236 @@
 }
 
 /* Responsive Design */
-@media (max-width: 1200px) {
-    .cardsContainer {
-        flex-direction: column;
+@media (max-width: 1399px) {
+    .mainSalesSolution {
+        padding: 12px 0px 90px 0px;
     }
 
-    .smallCardsContainer {
-        flex-direction: column;
+    .headerSection {
+        margin-bottom: 60px;
+    }
+
+    .mainHeading {
+        font-size: 34px;
+    }
+
+    .subHeading {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .tabsContainer {
+        gap: 55px;
+    }
+
+    .tab {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .tabIcon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .contentSection {
+        padding-top: 40px;
+    }
+
+    .introText {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .cardsContainer {
+        gap: 22px;
+    }
+
+    .leftCard,
+    .rightCard {
+        padding: 26px 20px 20px 20px;
+        max-width: 630px;
+    }
+
+    .cardHeading {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .cardGreenText {
+        font-size: 17px;
+        line-height: 27px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .mainSalesSolution {
-        padding: 60px 0;
+        padding: 12px 0px 85px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 55px;
     }
 
     .mainHeading {
         font-size: 32px;
     }
 
+    .tabsContainer {
+        gap: 45px;
+    }
+
+    .tab {
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    .tabIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contentSection {
+        padding-top: 38px;
+    }
+
+    .introText {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .cardsContainer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .leftCard,
+    .rightCard {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .smallCardsContainer {
+        flex-direction: row;
+        gap: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainSalesSolution {
+        padding: 12px 0px 80px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 50px;
+        gap: 18px;
+    }
+
+    .mainHeading {
+        font-size: 30px;
+    }
+
     .subHeading {
         font-size: 16px;
+        line-height: 26px;
+    }
+
+    .tabsContainer {
+        gap: 35px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tab {
+        padding: 13px;
+        font-size: 14px;
+    }
+
+    .tabIcon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .contentSection {
+        padding-top: 35px;
+    }
+
+    .introText {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .badge {
+        font-size: 12px;
+        padding: 5px 5.5px;
+        max-width: 105px;
+    }
+
+    .cardHeading {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .cardGreenText {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .smallCardsContainer {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainSalesSolution {
+        padding: 12px 0px 70px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 45px;
+        gap: 16px;
+    }
+
+    .mainHeading {
+        font-size: 28px;
+    }
+
+    .subHeading {
+        font-size: 15px;
+        line-height: 24px;
     }
 
     .tabsContainer {
         flex-wrap: wrap;
         gap: 20px;
+        justify-content: flex-start;
     }
 
     .tab {
-        padding: 12px 0;
+        padding: 12px 10px;
+        font-size: 14px;
+    }
+
+    .tabIcon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .contentSection {
+        padding-top: 32px;
+    }
+
+    .introText {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .badge {
+        font-size: 11px;
+        padding: 5px 5px;
+        max-width: 100px;
+        margin-left: 8px;
     }
 
     .cardsContainer {
@@ -288,10 +488,201 @@
 
     .leftCard,
     .rightCard {
-        padding: 24px;
+        padding: 24px 18px;
+        gap: 12px;
+    }
+
+    .rightCard {
+        gap: 26px;
+    }
+
+    .cardHeading {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .cardGreenText {
+        font-size: 15px;
+        line-height: 24px;
     }
 
     .smallCardsContainer {
         flex-direction: column;
+        gap: 14px;
+        margin-top: 20px;
+    }
+
+    .smallCard {
+        padding: 9px 4px 4px 4px;
+    }
+
+    .smallCardIcon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .smallCardTitle {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainSalesSolution {
+        padding: 12px 0px 60px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 40px;
+        gap: 14px;
+    }
+
+    .mainHeading {
+        font-size: 26px;
+    }
+
+    .subHeading {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .tabsContainer {
+        gap: 16px;
+    }
+
+    .tab {
+        padding: 11px 8px;
+        font-size: 13px;
+    }
+
+    .tabIcon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .introText {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .cardHeading {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .cardGreenText {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .leftCard,
+    .rightCard {
+        padding: 22px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainSalesSolution {
+        padding: 12px 0px 50px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 35px;
+        gap: 12px;
+    }
+
+    .mainHeading {
+        font-size: 24px;
+    }
+
+    .subHeading {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .tabsContainer {
+        gap: 12px;
+        border-bottom-width: 1px;
+    }
+
+    .tab {
+        padding: 10px 6px;
+        font-size: 12px;
+    }
+
+    .tabIcon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .tabTitle {
+        font-size: 12px;
+    }
+
+    .contentSection {
+        padding-top: 28px;
+    }
+
+    .introText {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .badge {
+        font-size: 10px;
+        padding: 4px 4px;
+        max-width: 95px;
+        margin-left: 6px;
+    }
+
+    .cardsContainer {
+        gap: 18px;
+    }
+
+    .leftCard,
+    .rightCard {
+        padding: 20px 14px;
+    }
+
+    .cardHeading {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .cardGreenText {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .smallCard {
+        padding: 8px 3px 3px 3px;
+        gap: 14px;
+    }
+
+    .smallCardIcon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .smallCardTitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainHeading {
+        font-size: 22px;
+    }
+
+    .tab {
+        padding: 9px 5px;
+        font-size: 11px;
+    }
+
+    .introText {
+        font-size: 15px;
+    }
+
+    .cardHeading {
+        font-size: 16px;
     }
 }

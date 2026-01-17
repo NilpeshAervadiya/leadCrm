@@ -238,9 +238,54 @@
     margin: 0;
 }
 
+/* Media Queries for Footer Section - Responsive Design */
+@media (max-width: 1399px) {
+    .mainFooter {
+        padding: 24px 0px 12px 0px;
+        margin-top: 150px;
+    }
+
+    .footerContent {
+        gap: 35px;
+        margin-bottom: 38px;
+    }
+
+    .firstBox {
+        margin-right: 35px;
+    }
+
+    .lastBox {
+        margin-left: 35px;
+    }
+
+    .logo {
+        width: 230px;
+        height: 80px;
+    }
+
+    .tagline {
+        font-size: 15px;
+    }
+
+    .boxHeading {
+        font-size: 19px;
+        line-height: 38px;
+    }
+
+    .footerBottom {
+        margin-top: 38px;
+    }
+}
+
 @media (max-width: 1200px) {
+    .mainFooter {
+        padding: 24px 0px 12px 0px;
+        margin-top: 140px;
+    }
+
     .footerContent {
         gap: 30px;
+        margin-bottom: 36px;
     }
 
     .firstBox {
@@ -250,29 +295,496 @@
     .lastBox {
         margin-left: 20px;
     }
+
+    .logo {
+        width: 220px;
+        height: 77px;
+    }
+
+    .tagline {
+        font-size: 15px;
+    }
+
+    .socialIcon {
+        width: 40px;
+        height: 40px;
+        font-size: 19px;
+    }
+
+    .boxHeading {
+        font-size: 19px;
+        line-height: 36px;
+    }
+
+    .linkList {
+        gap: 28px;
+    }
+
+    .linkList a {
+        font-size: 13px;
+    }
+
+    .contactList {
+        gap: 18px;
+    }
+
+    .contactIcon {
+        width: 23px;
+        height: 23px;
+        font-size: 23px;
+    }
+
+    .contactList a {
+        font-size: 13px;
+    }
+
+    .chromeBadge {
+        padding: 14px 18px;
+        width: 165px;
+    }
+
+    .chromeText {
+        font-size: 15px;
+    }
+
+    .availableText {
+        font-size: 15px;
+    }
+
+    .footerBottom {
+        margin-top: 36px;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainFooter {
+        padding: 22px 0px 12px 0px;
+        margin-top: 130px;
+    }
+
+    .footerContent {
+        gap: 28px;
+        margin-bottom: 34px;
+    }
+
+    .firstBox {
+        margin-right: 15px;
+    }
+
+    .lastBox {
+        margin-left: 15px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 70px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .socialIcons {
+        gap: 11px;
+    }
+
+    .socialIcon {
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    .boxHeading {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .linkList {
+        gap: 26px;
+    }
+
+    .linkList a {
+        font-size: 13px;
+    }
+
+    .contactList {
+        gap: 16px;
+    }
+
+    .contactIcon {
+        width: 22px;
+        height: 22px;
+        font-size: 22px;
+    }
+
+    .contactList a {
+        font-size: 13px;
+    }
+
+    .chromeBadge {
+        padding: 13px 17px;
+        width: 160px;
+        gap: 11px;
+    }
+
+    .chromeLogoContainer {
+        width: 28px;
+        height: 28px;
+    }
+
+    .chromeLogo {
+        width: 18px;
+        height: 18px;
+    }
+
+    .chromeText {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .availableText {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .footerBottom {
+        margin-top: 34px;
+    }
+
+    .disclaimer {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .copyright {
+        font-size: 13px;
+        line-height: 26px;
+    }
 }
 
 @media (max-width: 768px) {
     .mainFooter {
         padding: 40px 0 20px 0;
+        margin-top: 100px;
     }
 
     .footerContent {
         flex-direction: column;
         gap: 30px;
+        align-items: center;
+        text-align: center;
     }
 
     .footerBox {
         min-width: 100%;
         margin: 0;
+        align-items: center;
     }
 
     .firstBox,
     .lastBox {
         margin: 0;
+        align-items: center;
+    }
+
+    .logo {
+        width: 180px;
+        height: 63px;
+    }
+
+    .tagline {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .socialIcon {
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    .boxHeading {
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .linkList {
+        align-items: center;
+        gap: 24px;
+    }
+
+    .linkList li {
+        justify-content: center;
+    }
+
+    .linkList a {
+        font-size: 13px;
+    }
+
+    .contactList {
+        align-items: center;
+        gap: 16px;
+    }
+
+    .contactList li {
+        justify-content: center;
     }
 
     .chromeBadge {
-        align-self: flex-start;
+        align-self: center;
+        margin-top: 10px;
+        width: 160px;
+    }
+
+    .footerBottom {
+        margin-top: 32px;
+    }
+
+    .disclaimer {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainFooter {
+        padding: 35px 0 18px 0;
+        margin-top: 90px;
+    }
+
+    .footerContent {
+        gap: 28px;
+    }
+
+    .logo {
+        width: 160px;
+        height: 56px;
+    }
+
+    .tagline {
+        font-size: 13px;
+    }
+
+    .socialIcon {
+        width: 36px;
+        height: 36px;
+        font-size: 17px;
+    }
+
+    .boxHeading {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .linkList {
+        gap: 22px;
+    }
+
+    .linkList a {
+        font-size: 12px;
+    }
+
+    .contactList {
+        gap: 14px;
+    }
+
+    .contactIcon {
+        width: 21px;
+        height: 21px;
+        font-size: 21px;
+    }
+
+    .contactList a {
+        font-size: 12px;
+    }
+
+    .chromeBadge {
+        width: 150px;
+        padding: 12px 16px;
+    }
+
+    .chromeText {
+        font-size: 14px;
+    }
+
+    .availableText {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainFooter {
+        padding: 30px 0 16px 0;
+        margin-top: 80px;
+    }
+
+    .footerContent {
+        gap: 26px;
+        margin-bottom: 28px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 49px;
+    }
+
+    .tagline {
+        font-size: 12px;
+    }
+
+    .socialIcons {
+        gap: 8px;
+    }
+
+    .socialIcon {
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+    }
+
+    .boxHeading {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 6px;
+    }
+
+    .linkList {
+        gap: 20px;
+    }
+
+    .linkList a {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .contactList {
+        gap: 12px;
+    }
+
+    .contactIcon {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    .contactList a {
+        font-size: 12px;
+    }
+
+    .chromeBadge {
+        width: 140px;
+        padding: 10px 14px;
+        gap: 8px;
+    }
+
+    .chromeLogoContainer {
+        width: 26px;
+        height: 26px;
+    }
+
+    .chromeLogo {
+        width: 17px;
+        height: 17px;
+    }
+
+    .chromeText {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .availableText {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .footerBottom {
+        margin-top: 28px;
+    }
+
+    .disclaimer {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainFooter {
+        padding: 25px 0 14px 0;
+        margin-top: 70px;
+    }
+
+    .footerContent {
+        gap: 24px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 42px;
+    }
+
+    .tagline {
+        font-size: 11px;
+    }
+
+    .socialIcon {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+    }
+
+    .boxHeading {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .linkList {
+        gap: 18px;
+    }
+
+    .linkList a {
+        font-size: 11px;
+    }
+
+    .chromeBadge {
+        width: 130px;
+        padding: 10px 12px;
+    }
+
+    .chromeText {
+        font-size: 13px;
+    }
+
+    .availableText {
+        font-size: 12px;
+    }
+
+    .disclaimer {
+        font-size: 9px;
+        line-height: 11px;
+    }
+
+    .copyright {
+        font-size: 10px;
+        line-height: 20px;
     }
 }

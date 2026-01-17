@@ -68,3 +68,242 @@
     align-items: center;
     gap: 29px;
 }
+
+/* Media Queries for UseCrm Section - Responsive Design */
+@media (max-width: 1399px) {
+    .mainUseCrm {
+        padding: 50px 0px 24px 0px;
+    }
+
+    .headerSection {
+        max-width: 750px;
+        margin-bottom: 32px;
+    }
+
+    .mainHeading {
+        font-size: 34px;
+    }
+
+    .useCrmContainer {
+        min-height: 400px;
+    }
+
+    .useCrmHeading {
+        font-size: 42px;
+        line-height: 62px;
+        padding-top: 48px;
+    }
+
+    .getstartedSection {
+        margin-top: 40px;
+    }
+
+    .getStartedButton {
+        width: 210px;
+        height: 50px;
+        font-size: 15px;
+        gap: 26px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainUseCrm {
+        padding: 48px 0px 22px 0px;
+    }
+
+    .headerSection {
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+
+    .mainHeading {
+        font-size: 32px;
+    }
+
+    .useCrmContainer {
+        min-height: 380px;
+    }
+
+    .useCrmHeading {
+        font-size: 40px;
+        line-height: 60px;
+        padding-top: 45px;
+    }
+
+    .getstartedSection {
+        margin-top: 38px;
+    }
+
+    .getStartedButton {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainUseCrm {
+        padding: 45px 0px 22px 0px;
+    }
+
+    .headerSection {
+        max-width: 100%;
+        margin-bottom: 28px;
+    }
+
+    .mainHeading {
+        font-size: 30px;
+    }
+
+    .useCrmContainer {
+        min-height: 360px;
+    }
+
+    .useCrmHeading {
+        font-size: 38px;
+        line-height: 56px;
+        padding-top: 42px;
+    }
+
+    .getstartedSection {
+        margin-top: 35px;
+    }
+
+    .getStartedButton {
+        width: 190px;
+        height: 48px;
+        font-size: 14px;
+        gap: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainUseCrm {
+        padding: 40px 0px 20px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 25px;
+        gap: 7px;
+    }
+
+    .mainHeading {
+        font-size: 28px;
+    }
+
+    .useCrmContainer {
+        min-height: 320px;
+    }
+
+    .useCrmHeading {
+        font-size: 32px;
+        line-height: 48px;
+        padding-top: 38px;
+    }
+
+    .getstartedSection {
+        margin-top: 32px;
+    }
+
+    .getStartedButton {
+        width: 180px;
+        height: 46px;
+        font-size: 14px;
+        padding: 11px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainUseCrm {
+        padding: 35px 0px 18px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 22px;
+        gap: 6px;
+    }
+
+    .mainHeading {
+        font-size: 26px;
+    }
+
+    .useCrmContainer {
+        min-height: 280px;
+    }
+
+    .useCrmHeading {
+        font-size: 28px;
+        line-height: 42px;
+        padding-top: 32px;
+    }
+
+    .getstartedSection {
+        margin-top: 28px;
+    }
+
+    .getStartedButton {
+        width: 170px;
+        height: 44px;
+        font-size: 13px;
+        padding: 10px;
+        gap: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainUseCrm {
+        padding: 30px 0px 16px 0px;
+    }
+
+    .headerSection {
+        margin-bottom: 20px;
+        gap: 6px;
+    }
+
+    .mainHeading {
+        font-size: 14px;
+    }
+
+    .useCrmContainer {
+        min-height: 250px;
+    }
+
+    .useCrmHeading {
+        font-size: 14px;
+        line-height: 36px;
+        padding-top: 28px;
+    }
+
+    .getstartedSection {
+        margin-top: 25px;
+    }
+
+    .getStartedButton {
+        width: 100%;
+        max-width: 160px;
+        height: 42px;
+        font-size: 12px;
+        padding: 9px;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainHeading {
+        font-size: 22px;
+    }
+
+    .useCrmHeading {
+        font-size: 22px;
+        line-height: 32px;
+        padding-top: 24px;
+    }
+
+    .getStartedButton {
+        max-width: 150px;
+        height: 40px;
+        font-size: 11px;
+    }
+}
